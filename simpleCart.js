@@ -553,7 +553,7 @@ var tombolRemove = '<svg style="width:24px;height:24px" viewBox="0 0 24 24"><pat
                     return [item.get(column.attr)];
                 },
                 ukuran: function (item, column) {
-                    return item.get(column.attr)];
+                    return [item.get(column.attr)];
                 },
                 link: function (item, column) {
                     return [item.get(column.attr)];
